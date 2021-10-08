@@ -1,0 +1,257 @@
+/* ESTILOS GERAIS */
+html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Courier New';
+}
+
+header{
+    display:flex;
+    background-color: navy;
+    justify-content: center;
+    height: 20rem;
+}
+
+.info-pessoal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    width: 80%;
+    background-color: white;
+    font-size:25px;
+    height: 110%;
+    border-radius: 5% 5% 0 0;
+}
+
+.foto{
+    margin-right: 10%;
+}
+
+.foto img{
+    height:80%;
+    width: 80%;
+    border-radius: 100%;
+}
+
+.informação{
+   margin-left:5%;
+}
+
+.informação li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.projetos{
+    justify-content : center;
+    align-items : center;
+    text-align: center;
+    margin:auto;
+    padding-top: 5%;
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+}
+
+#prevbutton{
+    position: absolute;
+    top: 60%;
+    z-index: 10;
+    left: 3%;
+    font-size: 35px;
+    cursor: pointer;
+    color: rgb(68, 185, 224);
+}
+
+#nextbutton{
+    position: absolute;
+    top: 60%;
+    z-index: 10;
+    right: 3%;
+    font-size: 35px;
+    cursor: pointer;
+    color: rgb(68, 185, 224);
+}
+.projetos h2{
+    font-size: 55px;
+    margin-bottom: 30px;
+    margin-bottom: 30px;
+    margin-top: 5%;
+    transition: font-size 0.5s;
+}
+
+.projetos h2:hover{
+    font-size: 80px;
+}
+
+.projetos-slider{
+    display:flex;
+    height: 28rem;
+    width: 100%;
+}
+
+
+.projetos-slider img{
+    width: 68rem;
+    height:25rem;
+}
+
+.add{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 10%;
+    margin-right: 5%;
+    scroll-margin-bottom: 5%;
+    width: 80%;
+    height: 23rem;
+}
+
+
+#more{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 55px;
+    margin-bottom: 30px;
+    transition: font-size 0.5s;
+}
+
+#more:hover{
+    font-size: 70px;
+}
+
+.quem-sou{
+    margin-right: 2%;
+    width: 600px;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: rgb(238, 229, 229);
+    box-shadow: 8px 8px #bfaaaa;
+    transition: background-color 3s;
+    transition: color 1.5s;
+}
+
+.quem-sou:hover{
+    background-color: rgb(49, 49, 167);
+    color:white
+}
+
+.quem-sou h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.quem-sou p{
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 20px;
+}
+
+.tec-hab{
+    margin-left: 4%;
+    width: 600px;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: rgb(238, 229, 229);
+    box-shadow: 8px 8px #bfaaaa;
+    transition: background-color 3s;
+    transition: color 1.5s;
+}
+
+.tec-hab:hover{
+    background-color: rgb(49, 49, 167);
+    color:white
+}
+
+.tec-hab h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.container{
+    display: flex;
+    justify-content : center;
+    align-items : center;
+    text-align: center;
+    margin-top:5%;
+    margin-left: -1%;
+    margin-right: 5%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#tec{
+    margin-right:6%;
+}
+
+#hab{
+    margin-left:-10%;
+}
+
+footer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    background-color: navy;
+    color: white;
+    height: 20rem;
+    font-size: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.contato{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+
+.contato a{
+    color: white;
+}
+
+.contato li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.icones{
+    border-top: 1px solid rgb(255, 255, 255,20%);
+    margin-left: 10%;
+    padding-top:15px;
+    width: 80%;
+    justify-content: center;
+    text-align: center;
+    padding-left: 250px;
+}
+
+.icones ul{
+    margin-left: -250px;
+}
+
+.icones li{
+    text-align: center;
+    display: inline-block;
+    padding: 4px;
+}
+
+.icones p{
+    color: white;
+}
+.icones a img{
+    width: 40px;
+}
