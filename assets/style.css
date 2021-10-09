@@ -255,3 +255,64 @@ footer{
 .icones a img{
     width: 40px;
 }
+
+
+@media only screen and (max-width: 425px){
+
+    header{
+        height: 39rem;
+        width: 50rem;
+    }
+
+    .info-pessoal{
+        display: inline-block;
+        height: 50rem ;
+    }
+
+    .informação{
+        padding-right: 7%;
+        font-size: 30px;
+    }
+
+    .foto{
+        margin:auto;
+        margin-top: 10%
+    }
+
+    .projetos{
+        width: 50rem; /* muda aqui
+        margin-top:40%;
+    }
+
+    .projetos-slider img{
+        width: 40rem; /* muda aqui*/
+        height: 30rem;
+    }
+
+    .add{
+        display: block;
+        height: 55rem;
+        margin-left: 5rem;
+        padding-left: 10%;
+    }
+
+    #more{
+        width: 50rem;
+        padding-left: 4rem;
+    }
+
+    .quem-sou{
+        height: 25rem;
+    }
+
+    .tec-hab{
+        margin-left: 0%;
+        height: 25rem;
+    }
+
+    footer{
+        width: 50rem;
+    }
+
+
+}
