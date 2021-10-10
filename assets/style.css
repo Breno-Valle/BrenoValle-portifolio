@@ -150,10 +150,10 @@ header{
 }
 
 .quem-sou p{
-    margin-top: 5%;
+    margin-top: 2%;
     margin-left: 2%;
     margin-right: 2%;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .tec-hab{
@@ -280,12 +280,11 @@ footer{
     }
 
     .projetos{
-        width: 50rem; /* muda aqui
+        width: 50rem; 
         margin-top:40%;
     }
 
     .projetos-slider img{
-        width: 40rem; /* muda aqui*/
         height: 30rem;
     }
 
@@ -313,6 +312,4 @@ footer{
     footer{
         width: 50rem;
     }
-
-
 }
