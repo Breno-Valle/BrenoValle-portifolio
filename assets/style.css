@@ -288,6 +288,16 @@ footer{
         height: 30rem;
     }
 
+    #prevbutton{
+        font-size: 60px;
+        color: red;
+    }
+    
+    #nextbutton{
+        font-size: 60px;
+        color: red;
+    }
+
     .add{
         display: block;
         height: 55rem;
